@@ -1,4 +1,4 @@
-# **DeepVizor**
+# **DeepVizor** : A user-friendly Python tool for capturing and analyzing network packets with real-time visualization and filtering capabilities.
 
 Network Packet Analysis Application designed in Python, enabling users to capture network packets, examine detailed information, and visualize network traffic trends.
 
