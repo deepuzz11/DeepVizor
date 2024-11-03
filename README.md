@@ -63,7 +63,7 @@ In the **View** menu, select **Resolve DNS Hostnames** to convert DNS responses 
 
 ## **License**
 
-This project is licensed under the [MIT License]. 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## **Acknowledgements**
 
