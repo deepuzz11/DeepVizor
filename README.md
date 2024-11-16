@@ -1,25 +1,33 @@
-# DeepVizor 
+# DeepVizor
 
-*A user-friendly Python tool for capturing and analyzing network packets with real-time visualization and filtering.*  Designed to enable users to capture network packets, examine detailed information, and visualize network traffic trends
+*A user-friendly Python tool for capturing and analyzing network packets with real-time visualization and filtering.* Designed to enable users to capture network packets, examine detailed information, and visualize network traffic trends.
 
-## **Overview**
+## Overview
 
-**DeepVizor** is a network packet analysis tool developed in Python 3, utilizing Scapy for packet capture and Tkinter for the graphical interface. This application supports network analysts in monitoring and analyzing packet information with features such as protocol filtering, detailed packet views, and traffic trend visualization.
+**DeepVizor** is a network packet analysis tool developed in Python 3, utilizing **Scapy** for packet capture and **Tkinter** for the graphical interface. This application supports network analysts in monitoring and analyzing packet information with features such as protocol filtering, detailed packet views, and traffic trend visualization.
 
-## **Installation**
+## Installation
 
 This application is compatible with major platforms. **Python 3.7.9** is recommended for best compatibility. Install all required libraries using `requirements.txt` or follow manual installation steps.
 
+### Steps to Install
+
 1. **Install Python**  
-   Download the appropriate version of Python from the official Python website.
+   Download the appropriate version of Python from the [official Python website](https://www.python.org/downloads/).
 
 2. **Install Required Packages**  
-   Use pip to install all dependencies listed in `requirements.txt`.
+   Use pip to install all dependencies listed in `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. **Manual Installation (Optional)**  
-   Install individual packages such as Scapy, Matplotlib, and Tkinter if needed.
+   Install individual packages such as Scapy, Matplotlib, and Tkinter if needed:
+   ```bash
+   pip install scapy matplotlib tk
+   ```
 
-## **How to Use DeepVizor**
+## How to Use DeepVizor
 
 1. **Launch the Application:**  
    Open DeepVizor to display available network interfaces.
@@ -30,7 +38,7 @@ This application is compatible with major platforms. **Python 3.7.9** is recomme
 3. **Set Packet Capture Count:**  
    After selecting an interface, enter the number of packets to capture. For large capture counts, there may be a slight delay as the data loads.
 
-## **Features**
+## Features
 
 - **Filter Network Packets:** Filter packets by protocol, source, or destination for precise analysis.
 - **Detailed Packet Information:** Double-click any packet to view in-depth details.
@@ -41,10 +49,10 @@ This application is compatible with major platforms. **Python 3.7.9** is recomme
 - **DNS Hostname Resolution:** Resolve DNS response packets to hostnames.
 - **Protocol Support:** Supports protocols such as HTTP, TLSv1.2, SSDP, TCP, UDP, ARP, and more.
 
-## **Feature Guide**
+## Feature Guide
 
 ### Filtering Packets  
-Select the **Filter** button, then choose a filtering option from Protocol, Source, or Destination. Enter the desired value, such as the protocol type (e.g., HTTP) or a specific IP address, to apply filtering.
+Select the **Filter** button, then choose a filtering option from Protocol, Source, or Destination. Enter the desired value (e.g., protocol type like HTTP or a specific IP address) to apply filtering.
 
 ### Detailed Packet Information  
 Double-click any packet in the list to display its details in the top section of the window.
@@ -61,13 +69,13 @@ Use **File > Save As** to save the current session’s packet data to the defaul
 ### DNS Hostname Resolution  
 In the **View** menu, select **Resolve DNS Hostnames** to convert DNS responses to hostnames.
 
-## **License**
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## **Acknowledgements**
+## Acknowledgements
 
 Built using:
-- Scapy for packet capture
-- Matplotlib for data visualization
-- Tkinter for GUI
+- **Scapy** for packet capture
+- **Matplotlib** for data visualization
+- **Tkinter** for GUI
